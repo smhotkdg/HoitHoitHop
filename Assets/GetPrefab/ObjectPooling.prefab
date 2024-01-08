@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1762317623358762}
+  m_IsPrefabAsset: 1
+--- !u!1 &1762317623358762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4313915033894340}
+  - component: {fileID: 114519314205903720}
+  m_Layer: 0
+  m_Name: ObjectPooling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4313915033894340
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1762317623358762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.995572, y: -0.08636066, z: 0.12890625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114519314205903720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1762317623358762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28fdc45fa5ac5a544857ab7633c23ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathEffect: {fileID: 1052833281835618, guid: 37b8fe271fc05e649be40496a9853a06,
+    type: 2}
+  starPrefab: {fileID: 1417848714217342, guid: 72c58580d66da2447bcfdeceb6f6fb35, type: 2}
+  platform1: {fileID: 1352585352304494, guid: 604c59ca5819f6f44b6cba297a7a4111, type: 2}
+  platform2: {fileID: 1824691127701972, guid: 0f80a810bef517b41b34fdf7bfd67969, type: 2}
+  platform3: {fileID: 1453517302049126, guid: 3fa7d349f73df5c41857f77960aee397, type: 2}
+  platform4: {fileID: 1906136866880866, guid: 9b1c5ef2690dd274f877f48fd3963e5d, type: 2}
+  platform5: {fileID: 1727238041318948, guid: a97b5d1875f92cb4894d579d1a113d3c, type: 2}
+  platform6: {fileID: 1591812543782740, guid: 68a161322279af94681c25c1c4fa611c, type: 2}
+  platform7: {fileID: 1290604662699428, guid: 7eb538f6a16066f48b7eca4e2402f2b2, type: 2}
+  platform8: {fileID: 1357541038845730, guid: da2ea2c15c3878d4b91a6f0a8c36d5ba, type: 2}
+  platform9: {fileID: 1696111479212720, guid: 39c3edf054eb10d47857c131427c2b90, type: 2}
+  platform10: {fileID: 1408362881559328, guid: 5d2e47f64da1a2f4eb706a8e5adcdca2, type: 2}
+  count: 2
